@@ -45,4 +45,4 @@ Once the files are in the correct directory and the web server is running, you c
 
 ```bash
 Copy code
-http://localhost/index.php
+http://localhost/hello-world-php/index.php
