@@ -9,7 +9,7 @@ El primer paso es que el usuario clone el repositorio donde tienes el archivo PH
 ```bash
 git clone https://github.com/CinthiaDayanara/Hello-world-php.git
 
-## 2. Instalar PHP y un servidor web
+# 2. Instalar PHP y un servidor web
 
 En Windows:
 El usuario puede instalar XAMPP o WAMP, que incluyen Apache y PHP de manera sencilla.
