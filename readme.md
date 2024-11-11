@@ -1,3 +1,13 @@
+# Hello World PHP Project
+
+This project is a simple PHP application that prints a "Hello World" message in the browser. It is designed to show the basics of PHP and how to configure it in a local environment using a web server such as Apache.
+
+## Description
+
+The purpose of this project is to provide a basic introduction to PHP programming, as well as setting up a local web server to run PHP applications. This project can serve as a foundation for beginners who want to learn PHP and integration with servers like Apache.
+
+The main file of the application is `index.php`, which prints a message on the screen when accessed through a browser.
+
 # Instructions to run the PHP application
 
 Follow these steps to download, configure and run the PHP application on your local machine.
