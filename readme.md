@@ -1,35 +1,38 @@
-# Instrucciones para ejecutar la aplicación PHP
+# Instructions to run the PHP application
 
-Sigue estos pasos para descargar, configurar y ejecutar la aplicación PHP en tu máquina local.
+Follow these steps to download, configure and run the PHP application on your local machine.
 
-## 1. Clonar el repositorio desde GitHub
-
-El primer paso es que el usuario clone el repositorio donde tienes el archivo PHP y el código.
+## 1. Clone the repository from GitHub
 
 ```bash
 git clone https://github.com/CinthiaDayanara/Hello-world-php.git
+```
+## 2. Install PHP and a web server
 
-# 2. Instalar PHP y un servidor web
+On Windows:
+The user can install XAMPP or WAMP, which includes Apache and PHP easily.
 
-En Windows:
-El usuario puede instalar XAMPP o WAMP, que incluyen Apache y PHP de manera sencilla.
+Download XAMPP from here and install.
+XAMPP will include both PHP and Apache, allowing you to run the PHP file on the local server.
+On Mac:
+Using MAMP is a good option, which also includes Apache and PHP.
 
-Descarga XAMPP desde aquí e instala.
-XAMPP incluirá tanto PHP como Apache, lo que permite ejecutar el archivo PHP en el servidor local.
-En Mac:
-Usar MAMP es una buena opción, que también incluye Apache y PHP.
+Download MAMP from here.
+## 3. Place the files in the appropriate directory
+The next step is to place the PHP files in the root directory of the web server:
 
-Descarga MAMP desde aquí.
-## 3. Colocar los archivos en el directorio adecuado
-El siguiente paso es colocar los archivos PHP en el directorio raíz del servidor web:
+In XAMPP (Windows): The directory where you should place your files is 
+C:\xampp\htdocs\.
 
-En XAMPP (Windows): El directorio donde debes colocar tus archivos es C:\xampp\htdocs\.
-En MAMP (Mac): El directorio para colocar los archivos es /Applications/MAMP/htdocs/.
-## 4. Abrir el servidor web
-En XAMPP o MAMP, solo necesitas iniciar Apache desde la interfaz gráfica de la aplicación.
-## 5. Acceder al archivo PHP desde el navegador
-Una vez que los archivos estén en el directorio correcto y el servidor web esté funcionando, puedes abrir tu navegador y acceder a la aplicación mediante:
+In MAMP (Mac): The directory to place the files is 
+/Applications/MAMP/htdocs/.
 
-arduino
-Copiar código
-http://localhost/hola-mundo.php
+## 4. Open the web server
+In XAMPP or MAMP, you only need to start Apache from the application's graphical interface.
+
+## 5. Access the PHP file from the browser
+Once the files are in the correct directory and the web server is running, you can open your browser and access the application by:
+
+```bash
+Copy code
+http://localhost/index.php
